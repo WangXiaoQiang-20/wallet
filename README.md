@@ -1,1 +1,1 @@
-# wallet
+--add-exports --add-exports=java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED
