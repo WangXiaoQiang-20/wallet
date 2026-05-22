@@ -1,17 +1,9 @@
 package com.bsn;
 
-
-import com.bsn.utils.ResourcesUtil;
 import com.bsn.wallet.*;
-import org.bouncycastle.util.test.Test;
-//import org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper;
-
 import javax.swing.*;
 import java.awt.*;
-import java.io.File;
-import java.io.InputStream;
 import java.net.URL;
-import java.util.Objects;
 
 /**
  * @author wxq
@@ -26,9 +18,7 @@ public class WalletTool extends JPanel {
         // 使用Swing窗体描述
         // JFrame.setDefaultLookAndFeelDecorated(true);
         try {
-            //org.jb2011.lnf.beautyeye.BeautyEyeLNFHelper.launchBeautyEyeLNF();
-//            BeautyEyeLNFHelper.frameBorderStyle = BeautyEyeLNFHelper.FrameBorderStyle.osLookAndFeelDecorated;
-//            BeautyEyeLNFHelper.launchBeautyEyeLNF();
+
             // 设置右上角的 设置按钮
             UIManager.put("RootPane.setupButtonVisible", false);
 
