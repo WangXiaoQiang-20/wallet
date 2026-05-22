@@ -1,0 +1,17 @@
+# Build output
+target/
+out/
+
+# IDE
+.idea/
+*.iml
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
